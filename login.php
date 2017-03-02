@@ -103,7 +103,7 @@ class Auth
             $api_response['message'] = 'Error occurred! ['.$conn->error.']';
         }
 
-
+     $conn->close();
     }
 }
 

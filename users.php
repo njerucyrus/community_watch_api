@@ -125,6 +125,8 @@ class User
              * Create a connection to the database
              */
             $conn = $connection->getConnection();
+
+
             $sql_statement = " INSERT INTO users(username, fullname, regno, user_type, password)
                 VALUES(
                     '{$this->getUsername()}',

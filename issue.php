@@ -10,7 +10,7 @@
 /*
  * import the database connection file
  */
-require 'oopapi/connectdb.php';
+require 'connect.php';
 /*
  * get the json data from the android device
  */
